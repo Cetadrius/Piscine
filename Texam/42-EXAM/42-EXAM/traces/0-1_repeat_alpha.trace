@@ -1,0 +1,36 @@
+repeat_alpha/repeat_alpha.c: In function ‘letter_count’:
+repeat_alpha/repeat_alpha.c:36:19: warning: passing argument 2 of ‘write’ makes pointer from integer without a cast [-Wint-conversion]
+   36 |       write(1, str[j], 1);
+      |                ~~~^~~
+      |                   |
+      |                   char
+In file included from repeat_alpha/repeat_alpha.c:13:
+/usr/include/unistd.h:378:45: note: expected ‘const void *’ but argument is of type ‘char’
+  378 | extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+      |                                 ~~~~~~~~~~~~^~~~~
+repeat_alpha/repeat_alpha.c:54:19: warning: passing argument 2 of ‘write’ makes pointer from integer without a cast [-Wint-conversion]
+   54 |       write(1, str[j], 1);
+      |                ~~~^~~
+      |                   |
+      |                   char
+In file included from repeat_alpha/repeat_alpha.c:13:
+/usr/include/unistd.h:378:45: note: expected ‘const void *’ but argument is of type ‘char’
+  378 | extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+      |                                 ~~~~~~~~~~~~^~~~~
+repeat_alpha/repeat_alpha.c:64:20: error: expected ‘;’ before ‘i’
+   64 |   write(1, "\n", 1)
+      |                    ^
+      |                    ;
+   65 |   i++;
+      |   ~                 
+
+$
+-------
+abbccc$
+-------
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+-------
+abbacccaddddabba 42!$
+-------
+$
+-------

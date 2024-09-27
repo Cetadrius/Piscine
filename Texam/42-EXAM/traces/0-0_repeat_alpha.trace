@@ -1,0 +1,55 @@
+repeat_alpha/repeat_alpha.c: In function ‘ft_repeat’:
+repeat_alpha/repeat_alpha.c:21:2: error: expected ‘,’ or ‘;’ before ‘char’
+   21 |  char down[] = "abcdefghijklmnopqrstuvwxyz"
+      |  ^~~~
+repeat_alpha/repeat_alpha.c:26:10: error: subscripted value is neither array nor pointer nor vector
+   26 |  while (c[i] != '\0')
+      |          ^
+repeat_alpha/repeat_alpha.c:28:8: error: subscripted value is neither array nor pointer nor vector
+   28 |   if (c[i] >= 'a' && c[i] <= 'z')
+      |        ^
+repeat_alpha/repeat_alpha.c:28:23: error: subscripted value is neither array nor pointer nor vector
+   28 |   if (c[i] >= 'a' && c[i] <= 'z')
+      |                       ^
+repeat_alpha/repeat_alpha.c:30:11: error: ‘down’ undeclared (first use in this function)
+   30 |    while (down[j] <= 25)
+      |           ^~~~
+repeat_alpha/repeat_alpha.c:30:11: note: each undeclared identifier is reported only once for each function it appears in
+repeat_alpha/repeat_alpha.c:32:21: error: subscripted value is neither array nor pointer nor vector
+   32 |     if (down[j] == c[i])
+      |                     ^
+repeat_alpha/repeat_alpha.c:36:18: error: subscripted value is neither array nor pointer nor vector
+   36 |       write(1, &c[i], 1);
+      |                  ^
+repeat_alpha/repeat_alpha.c:46:13: error: subscripted value is neither array nor pointer nor vector
+   46 |   else if (c[i] >= 'A' && c[i] <= 'Z')
+      |             ^
+repeat_alpha/repeat_alpha.c:46:28: error: subscripted value is neither array nor pointer nor vector
+   46 |   else if (c[i] >= 'A' && c[i] <= 'Z')
+      |                            ^
+repeat_alpha/repeat_alpha.c:50:19: error: subscripted value is neither array nor pointer nor vector
+   50 |     if (up[j] == c[i])
+      |                   ^
+repeat_alpha/repeat_alpha.c:54:18: error: subscripted value is neither array nor pointer nor vector
+   54 |       write(1, &c[i], 1);
+      |                  ^
+repeat_alpha/repeat_alpha.c: In function ‘main’:
+repeat_alpha/repeat_alpha.c:72:17: warning: passing argument 1 of ‘ft_repeat’ makes integer from pointer without a cast [-Wint-conversion]
+   72 |   ft_repeat(argv[1]);
+      |             ~~~~^~~
+      |                 |
+      |                 char *
+repeat_alpha/repeat_alpha.c:15:21: note: expected ‘char’ but argument is of type ‘char *’
+   15 | void ft_repeat(char c)
+      |                ~~~~~^
+
+$
+-------
+abbccc$
+-------
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+-------
+abbacccaddddabba 42!$
+-------
+$
+-------

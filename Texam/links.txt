@@ -1,0 +1,8 @@
+http://nigal.freeshell.org/42/exam-review.php
+
+
+http://nigal.freeshell.org/42/exam-solutions/
+
+https://github.com/ayoub0x1/C-Piscine-exam/blob/main/Level%2001/1-1-rot_13/subject.en.txt
+
+https://github.com/LN-Dark/Piscine42/tree/main

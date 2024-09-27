@@ -1,0 +1,17 @@
+ft_putstr/ft_putstr.c: In function ‘ft_putstr’:
+ft_putstr/ft_putstr.c:20:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+   20 |   write(1, str[i], 1);
+      |   ^~~~~
+
+
+abc\n
+\n
+-------
+
+   c0vdsjnodgfiodgfiudgjfduigjfduigjfdiugjfdugjfdugjfduigjfdgjufdugfdgfd\0f\n
+\n
+-------
+
+   c0vdsjnodg\0fiodgfiudgjfduigjfduigjfdiugjfdugjfdugjfduigjfdgjufdugfdgfd\0f\n
+\n
+-------

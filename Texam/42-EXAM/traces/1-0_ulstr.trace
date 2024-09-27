@@ -1,0 +1,64 @@
+ulstr/ulstr.c: In function ‘ft_caseshift’:
+ulstr/ulstr.c:23:14: warning: comparison between pointer and integer
+   23 |   if (str[i] >= "a" && str[i] <= "z")
+      |              ^~
+ulstr/ulstr.c:23:31: warning: comparison between pointer and integer
+   23 |   if (str[i] >= "a" && str[i] <= "z")
+      |                               ^~
+ulstr/ulstr.c:26:13: warning: passing argument 2 of ‘write’ makes pointer from integer without a cast [-Wint-conversion]
+   26 |    write(1, c, 1);
+      |             ^
+      |             |
+      |             char
+In file included from ulstr/ulstr.c:13:
+/usr/include/unistd.h:378:45: note: expected ‘const void *’ but argument is of type ‘char’
+  378 | extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+      |                                 ~~~~~~~~~~~~^~~~~
+ulstr/ulstr.c:28:19: warning: comparison between pointer and integer
+   28 |   else if (str[i] >= "A" && str[i] <= "Z")
+      |                   ^~
+ulstr/ulstr.c:28:36: warning: comparison between pointer and integer
+   28 |   else if (str[i] >= "A" && str[i] <= "Z")
+      |                                    ^~
+ulstr/ulstr.c:31:13: warning: passing argument 2 of ‘write’ makes pointer from integer without a cast [-Wint-conversion]
+   31 |    write(1, c, 1);
+      |             ^
+      |             |
+      |             char
+In file included from ulstr/ulstr.c:13:
+/usr/include/unistd.h:378:45: note: expected ‘const void *’ but argument is of type ‘char’
+  378 | extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+      |                                 ~~~~~~~~~~~~^~~~~
+ulstr/ulstr.c:35:16: warning: passing argument 2 of ‘write’ makes pointer from integer without a cast [-Wint-conversion]
+   35 |    write(1, str[i], 1);
+      |             ~~~^~~
+      |                |
+      |                char
+In file included from ulstr/ulstr.c:13:
+/usr/include/unistd.h:378:45: note: expected ‘const void *’ but argument is of type ‘char’
+  378 | extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+      |                                 ~~~~~~~~~~~~^~~~~
+ulstr/ulstr.c: In function ‘main’:
+ulstr/ulstr.c:45:25: error: expected ‘;’ before ‘}’ token
+   45 |    ft_caseshift(argv[1])
+      |                         ^
+      |                         ;
+   46 |   }
+      |   ~                      
+ulstr/ulstr.c: In function ‘ft_caseshift’:
+ulstr/ulstr.c:49:1: error: expected declaration or statement at end of input
+   49 | }
+      | ^
+
+$
+-------
+l'EspRIT Ne PEuT PLuS PrOGrESsER S'iL STAgNE ET Si PErSiStENT vaNiTE ET AUTO-JUSTIFICATION.$
+-------
+s'ENtoUrER De SecREt EsT Un SigNe dE MaNqUe dE COnnAIssANcE.  $
+-------
+3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
+-------
+$
+-------
+\N\N$
+-------

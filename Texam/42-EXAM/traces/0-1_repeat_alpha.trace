@@ -1,0 +1,19 @@
+repeat_alpha/repeat_alpha.c: In function ‘ft_repeat’:
+repeat_alpha/repeat_alpha.c:21:2: error: expected ‘,’ or ‘;’ before ‘char’
+   21 |  char down[] = "abcdefghijklmnopqrstuvwxyz"
+      |  ^~~~
+repeat_alpha/repeat_alpha.c:30:11: error: ‘down’ undeclared (first use in this function)
+   30 |    while (down[j] <= 25)
+      |           ^~~~
+repeat_alpha/repeat_alpha.c:30:11: note: each undeclared identifier is reported only once for each function it appears in
+
+$
+-------
+abbccc$
+-------
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+-------
+abbacccaddddabba 42!$
+-------
+$
+-------

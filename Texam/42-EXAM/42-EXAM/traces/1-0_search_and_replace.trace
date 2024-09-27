@@ -1,0 +1,20 @@
+search_and_replace/search_and_replace.c:13:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   13 | include <unistd.h>
+      |         ^
+
+$
+-------
+Popoche est un sobre$
+-------
+$
+-------
+zaz$
+-------
+$
+-------
+ZaZ eT David aiME le METal.$
+-------
+eNcOre Un ExEmPle Pas Facile a Ecrire $
+-------
+$
+-------

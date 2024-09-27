@@ -1,0 +1,29 @@
+rotone/rotone.c: In function ‘main’:
+rotone/rotone.c:23:8: error: ‘agrv’ undeclared (first use in this function); did you mean ‘argv’?
+   23 |   if ((agrv[1][i] >= 'a') && (agrv[1][i] < 'z')
+      |        ^~~~
+      |        argv
+rotone/rotone.c:23:8: note: each undeclared identifier is reported only once for each function it appears in
+rotone/rotone.c:23:48: error: expected ‘)’ before ‘{’ token
+   23 |   if ((agrv[1][i] >= 'a') && (agrv[1][i] < 'z')
+      |      ~                                         ^
+      |                                                )
+   24 |   {
+      |   ~                                             
+rotone/rotone.c:45:1: error: expected declaration or statement at end of input
+   45 | }
+      | ^
+rotone/rotone.c:45:1: error: expected declaration or statement at end of input
+
+$
+-------
+bcd$
+-------
+Mft tubhjbjsft ev tubgg of tfoufou qbt upvkpvst usft cpo.$
+-------
+BlkiA aMLJKa , 23z $
+-------
+   $
+-------
+$
+-------
